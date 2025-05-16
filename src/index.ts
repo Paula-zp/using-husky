@@ -1,2 +1,3 @@
-const msg: string = 'Olá, mundo!"
-console.log(msg);
+export function sum(a: number, b: number): number {
+    return a+b
+}

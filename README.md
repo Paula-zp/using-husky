@@ -1,1 +1,1 @@
-npx lint-staged
+# Relatório de Configuração Husky

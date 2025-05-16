@@ -1,2 +1,1 @@
-# using-husky
-
+npx lint-staged

@@ -1,0 +1,7 @@
+.husky/_*
+*.log
+*.lock
+*.tsbuildinfo
+*.tgz
+*.zip
+node_modules

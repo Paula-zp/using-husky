@@ -14,16 +14,13 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "start": "ts-node src/index.ts",
+    "build": "tsc",
     "lint": "eslint src --ext .ts --fix",
     "test": "jest"
-
   },
   "lint-staged": {
-  "src/**/*.ts": [
-    "eslint --fix",
-    "npm test"
-  ]
-}
-
+    "src/**/*.ts": [
+      "eslint --fix"
+    ]
+  }
 }

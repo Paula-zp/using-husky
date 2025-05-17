@@ -29,32 +29,32 @@ Para testar isso, foi utilizado um código base que deveria somar dois números,
 
 Para causar a falha no step d build, foram retiradas a tipagem dos números, o que gerou o erro de compilação no código: `parameter 'a' implicitly has an 'any' type`.
 <figure style="text-align: center;">
-  <figcaption><sub>Função base</sub></figcaption>
-  <img src="assets/erro_sintaxe.jpg" alt="Função base" width="600"/>
+  <figcaption><sub>Erro de sintaxe</sub></figcaption>
+  <img src="assets/erro_sintaxe.jpg" alt="Erro de sintaxe" width="600"/>
 </figure>
 
 <figure style="text-align: center;">
   <figcaption><sub>Erro de build</sub></figcaption>
-  <img src="assets/build_error.jpg" alt="Função base" width="600"/>
+  <img src="assets/build_error.jpg" alt="Erro de build" width="600"/>
 </figure>
 
 Para causar a falha no step do lint, foi adicionada uma váriavel `result` que não é utilizada, o que gerou o erro: `error 'result' is assigned a value but never used`.
 
 <figure style="text-align: center;">
   <figcaption><sub>Erro no lint</sub></figcaption>
-  <img src="assets/lint error.jpg" alt="Função base" width="600"/>
+  <img src="assets/lint error.jpg" alt="Erro no lint" width="600"/>
 </figure>
 
 #### Pre-push
 No hook de pre-push, configurei para rodar o comando "npm test", que chama o script `jest` do package.json e executa os testes automatizados. Caso qualquer teste falhe, o push não é realizado, o que colabora pra manter um código funcional em todo o repositório do projeto. Para realizar o teste, foi modificada a função de teste, colocando um valor incorreto como esperado.
 <figure style="text-align: center;">
   <figcaption><sub>Teste com valor incorreto</sub></figcaption>
-  <img src="assets/teste_errado.jpg" alt="Função base" width="600"/>
+  <img src="assets/teste_errado.jpg" alt="Teste com valor incorreto" width="600"/>
 </figure>
 
 <figure style="text-align: center;">
   <figcaption><sub>Erro no teste</sub></figcaption>
-  <img src="assets/test_error.jpg" alt="Função base" width="600"/>
+  <img src="assets/test_error.jpg" alt="Erro no teste" width="600"/>
 </figure>
 
 

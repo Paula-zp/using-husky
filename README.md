@@ -1,5 +1,7 @@
 # Relatório de Configuração Husky
 
+Obs: Algumas imagens não estão carregando na visualização do github, por favor, conferir o arquivos na pasta assets.
+
 Ferramentas que automatizam tarefas recorrentes, como verificação de estilo de código e execução de testes, ajudam a reduzir erros humanos e aumentam a confiabilidade do projeto, qualidade de software e produtividade da equipe. O Husky é uma biblioteca que facilita a criação de hooks, ou seja, scripts que são executados automaticamente em momentos específicos, como antes de um commit ou push. Isso serve para garantir que certas ações vão ser feitas obrigatoriamente, como compilar o código ou executar testes antes que ele vá para o repositório remoto. 
 
 Os hooks utilizados para a ponderada são:
